@@ -1,774 +1,486 @@
 <p align="center">
-  <img align="center" src="docs/images/prowler-pro-dark.png#gh-dark-mode-only" width="150" height="36">
-  <img align="center" src="docs/images/prowler-pro-light.png#gh-light-mode-only" width="15%" height="15%">
+  <img align="center" alt="Prowler logo" src="https://github.com/prowler-cloud/prowler/blob/master/docs/img/prowler-logo-black.png#gh-light-mode-only" width="50%" height="50%">
+  <img align="center" alt="Prowler logo" src="https://github.com/prowler-cloud/prowler/blob/master/docs/img/prowler-logo-white.png#gh-dark-mode-only" width="50%" height="50%">
 </p>
 <p align="center">
-  <b><i>&nbsp&nbsp&nbspExplore the Pro version of Prowler at <a href="https://prowler.pro">prowler.pro</a></i></b>
+  <b><i>Prowler</b> is the Open Cloud Security Platform trusted by thousands to automate security and compliance in any cloud environment. With thousands of ready-to-use checks and compliance frameworks, Prowler delivers real-time, customizable monitoring and seamless integrations, making cloud security simple, scalable, and cost-effective for organizations of any size.
+</p>
+<p align="center">
+<b>The Agentic Cloud Defender</i></b>
+</p>
+<p align="center">
+<a href="https://cloud.prowler.com/sign-up">Try Prowler Cloud</a>
+</p>
+
+<p align="center">
+<a href="https://goto.prowler.com/slack"><img width="30" height="30" alt="Prowler community on Slack" src="https://github.com/prowler-cloud/prowler/assets/38561120/3c8b4ec5-6849-41a5-b5e1-52bbb94af73a"></a>
+  <br>
+  <a href="https://goto.prowler.com/slack">Join our Prowler community!</a>
 </p>
 <hr>
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/3985464/113734260-7ba06900-96fb-11eb-82bc-d4f68a1e2710.png" />
+  <a href="https://goto.prowler.com/slack"><img alt="Slack Shield" src="https://img.shields.io/badge/slack-prowler-brightgreen.svg?logo=slack"></a>
+  <a href="https://pypi.org/project/prowler/"><img alt="Python Version" src="https://img.shields.io/pypi/v/prowler.svg"></a>
+  <a href="https://pypi.python.org/pypi/prowler/"><img alt="Python Version" src="https://img.shields.io/pypi/pyversions/prowler.svg"></a>
+  <a href="https://pypistats.org/packages/prowler"><img alt="PyPI Downloads" src="https://img.shields.io/pypi/dw/prowler.svg?label=downloads"></a>
+  <a href="https://hub.docker.com/r/toniblyx/prowler"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/toniblyx/prowler"></a>
+  <a href="https://gallery.ecr.aws/prowler-cloud/prowler"><img width="120" height="19" alt="AWS ECR Gallery" src="https://user-images.githubusercontent.com/3985464/151531396-b6535a68-c907-44eb-95a1-a09508178616.png"></a>
+  <a href="https://codecov.io/gh/prowler-cloud/prowler"><img alt="Codecov coverage" src="https://codecov.io/gh/prowler-cloud/prowler/graph/badge.svg?token=OflBGsdpDl"/></a>
+  <a href="https://insights.linuxfoundation.org/project/prowler-cloud-prowler"><img alt="Linux Foundation insights health score" src="https://insights.linuxfoundation.org/api/badge/health-score?project=prowler-cloud-prowler"/></a>
 </p>
 <p align="center">
-  <a href="https://discord.gg/UjSMCVnxSB"><img alt="Discord Shield" src="https://img.shields.io/discord/807208614288818196"></a>
-  <a href="https://hub.docker.com/r/toniblyx/prowler"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/toniblyx/prowler"></a>
-  <a href="https://hub.docker.com/r/toniblyx/prowler"><img alt="Docker" src="https://img.shields.io/docker/cloud/build/toniblyx/prowler"></a>
-  <a href="https://hub.docker.com/r/toniblyx/prowler"><img alt="Docker" src="https://img.shields.io/docker/image-size/toniblyx/prowler"></a>
-  <a href="https://gallery.ecr.aws/o4g1s5r6/prowler"><img width="120" height=19" alt="AWS ECR Gallery" src="https://user-images.githubusercontent.com/3985464/151531396-b6535a68-c907-44eb-95a1-a09508178616.png"></a>
-  <a href="https://github.com/prowler-cloud/prowler"><img alt="Repo size" src="https://img.shields.io/github/repo-size/prowler-cloud/prowler"></a>
-  <a href="https://github.com/prowler-cloud/prowler"><img alt="Lines" src="https://img.shields.io/tokei/lines/github/prowler-cloud/prowler"></a>
-  <a href="https://github.com/prowler-cloud/prowler/issues"><img alt="Issues" src="https://img.shields.io/github/issues/prowler-cloud/prowler"></a>
-  <a href="https://github.com/prowler-cloud/prowler/releases"><img alt="Version" src="https://img.shields.io/github/v/release/prowler-cloud/prowler?include_prereleases"></a>
+    <a href="https://github.com/prowler-cloud/prowler/releases"><img alt="Version" src="https://img.shields.io/github/v/release/prowler-cloud/prowler"></a>
   <a href="https://github.com/prowler-cloud/prowler/releases"><img alt="Version" src="https://img.shields.io/github/release-date/prowler-cloud/prowler"></a>
   <a href="https://github.com/prowler-cloud/prowler"><img alt="Contributors" src="https://img.shields.io/github/contributors-anon/prowler-cloud/prowler"></a>
+  <a href="https://github.com/prowler-cloud/prowler/issues"><img alt="Issues" src="https://img.shields.io/github/issues/prowler-cloud/prowler"></a>
   <a href="https://github.com/prowler-cloud/prowler"><img alt="License" src="https://img.shields.io/github/license/prowler-cloud/prowler"></a>
   <a href="https://twitter.com/ToniBlyx"><img alt="Twitter" src="https://img.shields.io/twitter/follow/toniblyx?style=social"></a>
+  <a href="https://twitter.com/prowlercloud"><img alt="Twitter" src="https://img.shields.io/twitter/follow/prowlercloud?style=social"></a>
 </p>
-
+<hr>
 <p align="center">
-  <i>Prowler</i> is an Open Source security tool to perform AWS security best practices assessments, audits, incident response, continuous monitoring, hardening and forensics readiness. It contains more than 200 controls covering CIS, PCI-DSS, ISO27001, GDPR, HIPAA, FFIEC, SOC2, AWS FTR, ENS and custome security frameworks.
+  <img align="center" alt="Prowler Cloud demo" src="/docs/img/prowler-cloud.gif" width="100%" height="100%">
 </p>
 
-## Table of Contents
-
-- [Description](#description)
-- [Features](#features)
-- [High level architecture](#high-level-architecture)
-- [Requirements and Installation](#requirements-and-installation)
-- [Usage](#usage)
-- [Screenshots](#screenshots)
-- [Advanced Usage](#advanced-usage)
-- [Security Hub integration](#security-hub-integration)
-- [CodeBuild deployment](#codebuild-deployment)
-- [Allowlist](#allowlist-or-remove-a-fail-from-resources)
-- [Fix](#how-to-fix-every-fail)
-- [Troubleshooting](#troubleshooting)
-- [Extras](#extras)
-- [Forensics Ready Checks](#forensics-ready-checks)
-- [GDPR Checks](#gdpr-checks)
-- [HIPAA Checks](#hipaa-checks)
-- [Trust Boundaries Checks](#trust-boundaries-checks)
-- [Multi Account and Continuous Monitoring](util/org-multi-account/README.md)
-- [Add Custom Checks](#add-custom-checks)
-- [Third Party Integrations](#third-party-integrations)
-- [Full list of checks and groups](/LIST_OF_CHECKS_AND_GROUPS.md)
-- [License](#license)
-
-## Description
-
-Prowler is a command line tool that helps you with AWS security assessment, auditing, hardening and incident response.
-
-It follows guidelines of the CIS Amazon Web Services Foundations Benchmark (49 checks) and has more than 100 additional checks including related to GDPR, HIPAA, PCI-DSS, ISO-27001, FFIEC, SOC2 and others.
-
-Read more about [CIS Amazon Web Services Foundations Benchmark v1.2.0 - 05-23-2018](https://d0.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf)
-
-## Features
-
-+200 checks covering security best practices across all AWS regions and most of AWS services and related to the next groups:
-
-- Identity and Access Management [group1]
-- Logging  [group2]
-- Monitoring [group3]
-- Networking [group4]
-- CIS Level 1 [cislevel1]
-- CIS Level 2 [cislevel2]
-- Extras *see Extras section* [extras]
-- Forensics related group of checks [forensics-ready]
-- GDPR [gdpr] Read more [here](#gdpr-checks)
-- HIPAA [hipaa] Read more [here](#hipaa-checks)
-- Trust Boundaries [trustboundaries] Read more [here](#trust-boundaries-checks)
-- Secrets
-- Internet exposed resources
-- EKS-CIS
-- Also includes PCI-DSS, ISO-27001, FFIEC, SOC2, ENS (Esquema Nacional de Seguridad of Spain).
-- AWS FTR [FTR] Read more [here](#aws-ftr-checks)
-
-With Prowler you can:
-
-- Get a direct colorful or monochrome report
-- A HTML, CSV, JUNIT, JSON or JSON ASFF (Security Hub) format report
-- Send findings directly to Security Hub
-- Run specific checks and groups or create your own
-- Check multiple AWS accounts in parallel or sequentially
-- And more! Read examples below
-
-## High level architecture
-
-You can run Prowler from your workstation, an EC2 instance, Fargate or any other container, Codebuild, CloudShell and Cloud9.
-
-![Prowler high level architecture](https://user-images.githubusercontent.com/3985464/109143232-1488af80-7760-11eb-8d83-726790fda592.jpg)
-## Requirements and Installation
-
-Prowler has been written in bash using AWS-CLI underneath and it works in Linux, Mac OS or Windows with cygwin or virtualization. Also requires `jq` and `detect-secrets` to work properly.
-
-- Make sure the latest version of AWS-CLI is installed. It works with either v1 or v2, however _latest v2 is recommended if using new regions since they require STS v2 token_, and other components needed, with Python pip already installed.
-
-- For Amazon Linux (`yum` based Linux distributions and AWS CLI v2):
-    ```
-    sudo yum update -y
-    sudo yum remove -y awscli
-    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-    unzip awscliv2.zip
-    sudo ./aws/install
-    sudo yum install -y python3 jq git
-    sudo pip3 install detect-secrets==1.0.3
-    git clone https://github.com/prowler-cloud/prowler
-    ```
-- For Ubuntu Linux (`apt` based Linux distributions and AWS CLI v2):
-    ```
-    sudo apt update
-    sudo apt install python3 python3-pip jq git zip
-    pip install detect-secrets==1.0.3
-    curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-    unzip awscliv2.zip
-    sudo ./aws/install
-    git clone https://github.com/prowler-cloud/prowler
-    ```
-
-    > NOTE: detect-secrets Yelp version is no longer supported, the one from IBM is mantained now. Use the one mentioned below or the specific Yelp version 1.0.3 to make sure it works as expected (`pip install detect-secrets==1.0.3`):
-    ```sh
-    pip install "git+https://github.com/ibm/detect-secrets.git@master#egg=detect-secrets"
-    ```
+# Description
 
-    AWS-CLI can be also installed it using other methods, refer to official documentation for more details: <https://aws.amazon.com/cli/>, but `detect-secrets` has to be installed using `pip` or `pip3`.
+**Prowler** is the world’s most widely used _Open-Source Cloud Security Platform_ that automates security and compliance across **any cloud environment**. With thousands of ready-to-use security checks, remediation guidance, and compliance frameworks, Prowler is built to _“Secure ANY Cloud at AI Speed”_. Prowler delivers **AI-driven**, **customizable**, and **easy-to-use** assessments, dashboards, reports, and integrations, making cloud security **simple**, **scalable**, and **cost-effective** for organizations of any size.
 
-- Once Prowler repository is cloned, get into the folder and you can run it:
+Prowler includes hundreds of built-in controls to ensure compliance with standards and frameworks, including:
 
-    ```sh
-    cd prowler
-    ./prowler
-    ```
+- **Prowler ThreatScore:** Weighted risk prioritization scoring that helps you focus on the most critical security findings first
+- **Industry Standards:** CIS, NIST 800, NIST CSF, CISA, and MITRE ATT&CK
+- **Regulatory Compliance and Governance:** RBI, FedRAMP, PCI-DSS, and NIS2
+- **Frameworks for Sensitive Data and Privacy:** GDPR, HIPAA, and FFIEC
+- **Frameworks for Organizational Governance and Quality Control:** SOC2, GXP, and ISO 27001
+- **Cloud-Specific Frameworks:** AWS Foundational Technical Review (FTR), AWS Well-Architected Framework, and BSI C5
+- **National Security Standards:** ENS (Spanish National Security Scheme) and KISA ISMS-P (Korean)
+- **Custom Security Frameworks:** Tailored to your needs
 
-- Since Prowler users AWS CLI under the hood, you can follow any authentication method as described [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html#cli-configure-quickstart-precedence). Make sure you have properly configured your AWS-CLI with a valid Access Key and Region or declare AWS variables properly (or instance profile/role):
+## Prowler Cloud & Prowler Local Server
 
-    ```sh
-    aws configure
-    ```
+[Prowler Cloud](https://cloud.prowler.com/sign-up) and Prowler Local Server, its self-hosted open-source version, are web applications that simplify running Prowler across your cloud provider accounts. They provide a user-friendly interface to visualize the results and streamline your security assessments.
 
-    or
+![Prowler Cloud](docs/images/products/overview.png)
+![Risk Pipeline](docs/images/products/risk-pipeline.png)
+![Threat Map](docs/images/products/threat-map.png)
 
-    ```sh
-    export AWS_ACCESS_KEY_ID="ASXXXXXXX"
-    export AWS_SECRET_ACCESS_KEY="XXXXXXXXX"
-    export AWS_SESSION_TOKEN="XXXXXXXXX"
-    ```
 
-- Those credentials must be associated to a user or role with proper permissions to do all checks. To make sure, add the AWS managed policies, SecurityAudit and ViewOnlyAccess, to the user or role being used.  Policy ARNs are:
+>For more details, refer to the [Prowler Local Server documentation](https://docs.prowler.com/getting-started/installation/prowler-app)
 
-    ```sh
-    arn:aws:iam::aws:policy/SecurityAudit
-    arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
-    ```
+## Prowler CLI
 
-    > Additional permissions needed: to make sure Prowler can scan all services included in the group *Extras*, make sure you attach also the custom policy [prowler-additions-policy.json](https://github.com/prowler-cloud/prowler/blob/master/iam/prowler-additions-policy.json) to the role you are using. If you want Prowler to send findings to [AWS Security Hub](https://aws.amazon.com/security-hub), make sure you also attach the custom policy [prowler-security-hub.json](https://github.com/prowler-cloud/prowler/blob/master/iam/prowler-security-hub.json).
+```console
+prowler <provider>
+```
+![Prowler CLI Execution](docs/img/short-display.png)
 
-## Usage
 
-1. Run the `prowler` command without options (it will use your environment variable credentials if they exist or will default to using the `~/.aws/credentials` file and run checks over all regions when needed. The default region is us-east-1):
+## Prowler Local Dashboard
 
-    ```sh
-    ./prowler
-    ```
+```console
+prowler dashboard
+```
+![Prowler Local Dashboard](docs/images/products/dashboard.png)
 
-    Use `-l` to list all available checks and the groups (sections) that reference them. To list all groups use `-L` and to list content of a group use `-l -g <groupname>`.
 
-    If you want to avoid installing dependencies run it using Docker:
+## Attack Paths
 
-    ```sh
-    docker run -ti --rm --name prowler --env AWS_ACCESS_KEY_ID --env AWS_SECRET_ACCESS_KEY --env AWS_SESSION_TOKEN toniblyx/prowler:latest
-    ```
+Attack Paths automatically extends every completed AWS scan with a graph that combines Cartography's cloud inventory with Prowler findings. The feature runs in the API worker after each scan.
 
-    In case you want to get reports created by Prowler use docker volume option like in the example below:
-    ```sh
-    docker run -ti --rm -v /your/local/output:/prowler/output --name prowler --env AWS_ACCESS_KEY_ID --env AWS_SECRET_ACCESS_KEY --env AWS_SESSION_TOKEN toniblyx/prowler:latest -g hipaa -M csv,json,html
-    ```
+Two graph backends are supported as the long-lived sink:
 
-1. For custom AWS-CLI profile and region, use the following: (it will use your custom profile and run checks over all regions when needed):
+- **Neo4j** (default; the Docker Compose files already ship a `neo4j` service).
+- **Amazon Neptune** (cloud-managed; opt-in).
 
-    ```sh
-    ./prowler -p custom-profile -r us-east-1
-    ```
+Select the sink with `ATTACK_PATHS_SINK_DATABASE` (`neo4j` or `neptune`; default `neo4j`).
 
-1. For a single check use option `-c`:
+> Note: Cartography ingestion always uses a temporary Neo4j database, regardless of the configured sink. The `NEO4J_*` variables below must remain set even when `ATTACK_PATHS_SINK_DATABASE=neptune`.
 
-    ```sh
-    ./prowler -c check310
-    ```
+### Neo4j sink
 
-    With Docker:
+| Variable | Description | Default |
+| --- | --- | --- |
+| `NEO4J_HOST` | Hostname used by the API containers. | `neo4j` |
+| `NEO4J_PORT` | Bolt port exposed by Neo4j. | `7687` |
+| `NEO4J_USER` / `NEO4J_PASSWORD` | Credentials with rights to create per-tenant databases. | `neo4j` / `neo4j_password` |
 
-    ```sh
-    docker run -ti --rm --name prowler --env AWS_ACCESS_KEY_ID --env AWS_SECRET_ACCESS_KEY --env AWS_SESSION_TOKEN toniblyx/prowler:latest "-c check310"
-    ```
+### Neptune sink
 
-    or multiple checks separated by comma:
+| Variable | Description | Default |
+| --- | --- | --- |
+| `NEPTUNE_WRITER_ENDPOINT` | Bolt host for the Neptune writer instance. Required when sink is `neptune`. | _empty_ |
+| `NEPTUNE_READER_ENDPOINT` | Optional reader endpoint for read-only queries. Falls back to the writer when unset. | _empty_ |
+| `NEPTUNE_PORT` | Bolt port exposed by Neptune. | `8182` |
+| `AWS_REGION` | Region the Neptune cluster lives in. Required when sink is `neptune`. | _empty_ |
 
-    ```sh
-    ./prowler -c check310,check722
-    ```
+Neptune authenticates with SigV4 using the standard boto3 credential chain. The worker's IAM role (or `AWS_ACCESS_KEY_ID` / `AWS_SECRET_ACCESS_KEY`) supplies the credentials. There is no Neptune password variable.
 
-    or all checks but some of them:
+Every AWS provider scan will enqueue an Attack Paths ingestion job automatically. Other cloud providers will be added in future iterations.
 
-    ```sh
-    ./prowler -E check42,check43
-    ```
 
-    or for custom profile and region:
+# Prowler at a Glance
+> [!Tip]
+> For the most accurate and up-to-date information about checks, services, frameworks, and categories, visit [**Prowler Hub**](https://hub.prowler.com).
 
-    ```sh
-    ./prowler -p custom-profile -r us-east-1 -c check11
-    ```
 
-    or for a group of checks use group name:
+| Provider | Checks | Services | [Compliance Frameworks](https://docs.prowler.com/user-guide/compliance/tutorials/compliance) | [Categories](https://docs.prowler.com/user-guide/cli/tutorials/misc#categories) | Support | Interface |
+|---|---|---|---|---|---|---|
+| AWS | 662 | 86 | 50 | 19 | Official | UI, API, CLI |
+| Azure | 191 | 22 | 25 | 16 | Official | UI, API, CLI |
+| GCP | 110 | 20 | 22 | 12 | Official | UI, API, CLI |
+| Kubernetes | 92 | 7 | 11 | 11 | Official | UI, API, CLI |
+| GitHub | 24 | 3 | 2 | 5 | Official | UI, API, CLI |
+| M365 | 144 | 10 | 9 | 10 | Official | UI, API, CLI |
+| OCI | 52 | 14 | 5 | 10 | Official | UI, API, CLI |
+| Alibaba Cloud | 63 | 9 | 6 | 9 | Official | UI, API, CLI |
+| Cloudflare | 43 | 5 | 3 | 9 | Official | UI, API, CLI |
+| IaC | [See `trivy` docs.](https://trivy.dev/latest/docs/coverage/iac/) | N/A | N/A | N/A | Official | UI, API, CLI |
+| MongoDB Atlas | 10 | 3 | 1 | 8 | Official | UI, API, CLI |
+| LLM | [See `promptfoo` docs.](https://www.promptfoo.dev/docs/red-team/plugins/) | N/A | N/A | N/A | Official | CLI |
+| Image | N/A | N/A | N/A | N/A | Official | UI, API, CLI |
+| Google Workspace | 65 | 11 | 4 | 6 | Official | UI, API, CLI |
+| OpenStack | 34 | 5 | 1 | 9 | Official | UI, API, CLI |
+| Vercel | 26 | 6 | 1 | 8 | Official | UI, API, CLI |
+| Okta | 29 | 8 | 2 | 2 | Official | UI, API, CLI |
+| Linode [Contact us](https://prowler.com/contact) | 10 | 3 | 1 | 4 | Unofficial | CLI |
+| Huawei Cloud [Contact us](https://prowler.com/contact) | 25 | 10 | 1 | 6 | Unofficial | CLI |
+| E2E Networks [Contact us](https://prowler.com/contact) | 27 | 6 | 0 | 2 | Unofficial | CLI |
+| Scaleway [Contact us](https://prowler.com/contact) | 1 | 1 | 1 | 1 | Unofficial | CLI |
+| StackIT [Contact us](https://prowler.com/contact) | 8 | 2 | 1 | 3 | Unofficial | CLI |
+| NHN | 6 | 2 | 2 | 0 | Unofficial | CLI |
 
-    ```sh
-    ./prowler -g group1 # for iam related checks
-    ```
+> [!Note]
+> The numbers in the table are updated periodically.
 
-    or exclude some checks in the group:
 
-    ```sh
-    ./prowler -g group4 -E check42,check43
-    ```
 
-    Valid check numbers are based on the AWS CIS Benchmark guide, so 1.1 is check11 and 3.10 is check310
+> [!Note]
+> Use the following commands to list Prowler's available checks, services, compliance frameworks, and categories:
+> - `prowler <provider> --list-checks`
+> - `prowler <provider> --list-services`
+> - `prowler <provider> --list-compliance`
+> - `prowler <provider> --list-categories`
 
-### Regions
+# 💻 Installation
 
-By default, Prowler scans all opt-in regions available, that might take a long execution time depending on the number of resources and regions used. Same applies for GovCloud or China regions. See below Advance usage for examples.
+## Prowler Local Server
 
-Prowler has two parameters related to regions: `-r` that is used query AWS services API endpoints (it uses `us-east-1` by default and required for GovCloud or China) and the option `-f` that is to filter those regions you only want to scan. For example if you want to scan Dublin only use `-f eu-west-1` and if you want to scan Dublin and Ohio `-f eu-west-1,us-east-1`, note the regions are separated by a comma deliminator (it can be used as before with `-f 'eu-west-1,us-east-1'`).
+Prowler Local Server offers flexible installation methods tailored to various environments:
 
-## Screenshots
+> For detailed instructions on using Prowler Local Server, refer to the [usage guide](https://docs.prowler.com/user-guide/tutorials/prowler-app).
 
-- Sample screenshot of default console report first lines of command `./prowler`:
+### Docker Compose
 
-    <img width="900" src="https://user-images.githubusercontent.com/3985464/141444529-84640bed-be0b-4112-80a2-2a43e3ebf53f.png">
+#### Requirements
 
-- Sample screenshot of the html output `-M html`:
+- `Docker Compose` installed: https://docs.docker.com/compose/install/.
 
-    <img width="900" alt="Prowler html" src="https://user-images.githubusercontent.com/3985464/141443976-41d32cc2-533d-405a-92cb-affc3995d6ec.png">
+#### Commands
 
-- Sample screenshot of the Quicksight dashboard, see [quicksight-security-dashboard.workshop.aws](https://quicksight-security-dashboard.workshop.aws/):
+_macOS/Linux:_
 
-    <img width="900" alt="Prowler with Quicksight" src="https://user-images.githubusercontent.com/3985464/128932819-0156e838-286d-483c-b953-fda68a325a3d.png">
-
-- Sample screenshot of the junit-xml output in CodeBuild `-M junit-xml`:
-
-    <img width="900" src="https://user-images.githubusercontent.com/3985464/113942824-ca382b00-9801-11eb-84e5-d7731548a7a9.png">
-
-### Save your reports
-
-1. If you want to save your report for later analysis thare are different ways, natively (supported text, mono, csv, json, json-asff, junit-xml and html, see note below for more info):
-
-    ```sh
-    ./prowler -M csv
-    ```
-
-    or with multiple formats at the same time:
-
-    ```sh
-    ./prowler -M csv,json,json-asff,html
-    ```
-
-    or just a group of checks in multiple formats:
-
-    ```sh
-    ./prowler -g gdpr -M csv,json,json-asff
-    ```
-
-    or if you want a sorted and dynamic HTML report do:
-
-    ```sh
-    ./prowler -M html
-    ```
-
-    Now `-M` creates a file inside the prowler `output` directory named `prowler-output-AWSACCOUNTID-YYYYMMDDHHMMSS.format`. You don't have to specify anything else, no pipes, no redirects.
-
-    or just saving the output to a file like below:
-
-    ```sh
-    ./prowler -M mono > prowler-report.txt
-    ```
-
-    To generate JUnit report files, include the junit-xml format. This can be combined with any other format. Files are written inside a prowler root directory named `junit-reports`:
-
-    ```sh
-    ./prowler -M text,junit-xml
-    ```
-
-    >Note about output formats to use with `-M`: "text" is the default one with colors, "mono" is like default one but monochrome, "csv" is comma separated values, "json" plain basic json (without comma between lines) and "json-asff" is also json with Amazon Security Finding Format that you can ship to Security Hub using `-S`.
-
-    To save your report in an S3 bucket, use `-B` to define a custom output bucket along with `-M` to define the output format that is going to be uploaded to S3:
-
-    ```sh
-    ./prowler -M csv -B my-bucket/folder/
-    ```
-    >In the case you do not want to use the assumed role credentials but the initial credentials to put the reports into the S3 bucket, use `-D` instead of `-B`. Make sure that the used credentials have s3:PutObject permissions in the S3 path where the reports are going to be uploaded.
-
-    When generating multiple formats and running using Docker, to retrieve the reports, bind a local directory to the container, e.g.:
-
-    ```sh
-    docker run -ti --rm --name prowler --volume "$(pwd)":/prowler/output --env AWS_ACCESS_KEY_ID --env AWS_SECRET_ACCESS_KEY --env AWS_SESSION_TOKEN toniblyx/prowler:latest -M csv,json
-    ```
-
-1. To perform an assessment based on CIS Profile Definitions you can use cislevel1 or cislevel2 with `-g` flag, more information about this [here, page 8](https://d0.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf):
-
-    ```sh
-    ./prowler -g cislevel1
-    ```
-
-1. If you want to run Prowler to check multiple AWS accounts in parallel (runs up to 4 simultaneously `-P 4`) but you may want to read below in Advanced Usage section to do so assuming a role:
-
-    ```sh
-    grep -E '^\[([0-9A-Aa-z_-]+)\]'  ~/.aws/credentials | tr -d '][' | shuf |  \
-    xargs -n 1 -L 1 -I @ -r -P 4 ./prowler -p @ -M csv  2> /dev/null  >> all-accounts.csv
-    ```
-
-1. For help about usage run:
-
-    ```
-    ./prowler -h
-    ```
-
-## Advanced Usage
-
-### Assume Role:
-
-Prowler uses the AWS CLI underneath so it uses the same authentication methods. However, there are few ways to run Prowler against multiple accounts using IAM Assume Role feature depending on eachg use case. You can just set up your custom profile inside `~/.aws/config` with all needed information about the role to assume then call it with `./prowler -p your-custom-profile`. Additionally you can use `-A 123456789012` and `-R RemoteRoleToAssume` and Prowler will get those temporary credentials using `aws sts assume-role`, set them up as environment variables and run against that given account. To create a role to assume in multiple accounts easier eather as CFN Stack or StackSet, look at [this CloudFormation template](iam/create_role_to_assume_cfn.yaml) and adapt it.
-
-```sh
-./prowler -A 123456789012 -R ProwlerRole
+``` console
+VERSION=$(curl -s https://api.github.com/repos/prowler-cloud/prowler/releases/latest | jq -r .tag_name)
+curl -sLO "https://raw.githubusercontent.com/prowler-cloud/prowler/refs/tags/${VERSION}/docker-compose.yml"
+# Environment variables can be customized in the .env file. Using default values in production environments is not recommended.
+curl -sLO "https://raw.githubusercontent.com/prowler-cloud/prowler/refs/tags/${VERSION}/.env"
+docker compose up -d
 ```
 
-```sh
-./prowler -A 123456789012 -R ProwlerRole -I 123456
+_Windows PowerShell:_
+
+``` powershell
+$VERSION = (Invoke-RestMethod -Uri "https://api.github.com/repos/prowler-cloud/prowler/releases/latest").tag_name
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/prowler-cloud/prowler/refs/tags/$VERSION/docker-compose.yml" -OutFile "docker-compose.yml"
+# Environment variables can be customized in the .env file. Using default values in production environments is not recommended.
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/prowler-cloud/prowler/refs/tags/$VERSION/.env" -OutFile ".env"
+docker compose up -d
 ```
 
-> *NOTE 1 about Session Duration*: By default it gets credentials valid for 1 hour (3600 seconds). Depending on the mount of checks you run and the size of your infrastructure, Prowler may require more than 1 hour to finish. Use option `-T <seconds>`  to allow up to 12h (43200 seconds). To allow more than 1h you need to modify *"Maximum CLI/API session duration"* for that particular role, read more [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html#id_roles_use_view-role-max-session).
+> [!WARNING]
+> 🔒 For a secure setup, the API auto-generates a unique key pair, `DJANGO_TOKEN_SIGNING_KEY` and `DJANGO_TOKEN_VERIFYING_KEY`, and stores it in `~/.config/prowler-api` (non-container) or the bound Docker volume in `_data/api` (container). Never commit or reuse static/default keys. To rotate keys, delete the stored key files and restart the API.
 
-> *NOTE 2 about Session Duration*: Bear in mind that if you are using roles assumed by role chaining there is a hard limit of 1 hour so consider not using role chaining if possible, read more about that, in foot note 1 below the table [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_use.html).
+Once configured, access Prowler Local Server at http://localhost:3000. Sign up using your email and password to get started.
 
-For example, if you want to get only the fails in CSV format from all checks regarding RDS without banner from the AWS Account 123456789012 assuming the role RemoteRoleToAssume and set a fixed session duration of 1h:
+### Common Issues with Docker Pull Installation
 
-```sh
-./prowler -A 123456789012 -R RemoteRoleToAssume -T 3600 -b -M cvs -q -g rds
-```
-or with a given External ID:
-```sh
-./prowler -A 123456789012 -R RemoteRoleToAssume -T 3600 -I 123456 -b -M cvs -q -g rds
-```
+> [!Note]
+  If you want to use AWS role assumption (e.g., with the "Connect assuming IAM Role" option), you may need to mount your local `.aws` directory into the container as a volume (e.g., `- "${HOME}/.aws:/home/prowler/.aws:ro"`). There are several ways to configure credentials for Docker containers. See the [Troubleshooting](./docs/troubleshooting.mdx) section for more details and examples.
 
-### Assume Role and across all accounts in AWS Organizations or just a list of accounts:
+You can find more information in the [Troubleshooting](./docs/troubleshooting.mdx) section.
 
-If you want to run Prowler or just a check or a group across all accounts of AWS Organizations you can do this:
 
-First get a list of accounts that are not suspended:
-```
-ACCOUNTS_IN_ORGS=$(aws organizations list-accounts --query Accounts[?Status==`ACTIVE`].Id --output text)
-```
-Then run Prowler to assume a role (same in all members) per each account, in this example it is just running one particular check:
-```
-for accountId in $ACCOUNTS_IN_ORGS; do ./prowler -A $accountId -R RemoteRoleToAssume -c extra79; done
-```
-Using the same for loop it can be scanned a list of accounts with a variable like `ACCOUNTS_LIST='11111111111 2222222222 333333333'`
+### From GitHub
 
-### Get AWS Account details from your AWS Organization:
+#### Requirements
 
-From Prowler v2.8, you can get additional information of the scanned account in CSV and JSON outputs. When scanning a single account you get the Account ID as part of the output. Now, if you have AWS Organizations and are scanning multiple accounts using the assume role functionality, Prowler can get your account details like Account Name, Email, ARN, Organization ID and Tags and you will have them next to every finding in the CSV and JSON outputs.
-In order to do that you can use the new option `-O <management account id>`, requires `-R <role to assume>` and also needs permissions `organizations:ListAccounts*` and `organizations:ListTagsForResource`. See the following sample command:
-```
-./prowler -R ProwlerScanRole -A 111111111111 -O 222222222222 -M json,csv
-```
-In that command Prowler will scan the account `111111111111` assuming the role `ProwlerScanRole` and getting the account details from the AWS Organizatiosn management account `222222222222` assuming the same role `ProwlerScanRole` for that and creating two reports with those details in JSON and CSV.
+- `git` installed.
+- `uv` installed: [uv installation](https://docs.astral.sh/uv/getting-started/installation/).
+- `pnpm` installed: [pnpm installation](https://pnpm.io/installation).
+- `Docker Compose` installed: https://docs.docker.com/compose/install/.
 
-In the JSON output below (redacted) you can see tags coded in base64 to prevent breaking CSV or JSON due to its format:
+#### Commands to run the API
 
-```json
-  "Account Email": "my-prod-account@domain.com",
-  "Account Name": "my-prod-account",
-  "Account ARN": "arn:aws:organizations::222222222222:account/o-abcde1234/111111111111",
-  "Account Organization": "o-abcde1234",
-  "Account tags": "\"eyJUYWdzIjpasf0=\""
-```
-The additional fields in CSV header output are as follow:
-
-```csv
-ACCOUNT_DETAILS_EMAIL,ACCOUNT_DETAILS_NAME,ACCOUNT_DETAILS_ARN,ACCOUNT_DETAILS_ORG,ACCOUNT_DETAILS_TAGS
+``` console
+git clone https://github.com/prowler-cloud/prowler
+cd prowler/api
+uv sync
+source .venv/bin/activate
+set -a
+source .env
+docker compose up postgres valkey -d
+cd src/backend
+python manage.py migrate --database admin
+gunicorn -c config/guniconf.py config.wsgi:application
 ```
 
-### GovCloud
+> After completing the setup, access the API documentation at http://localhost:8080/api/v1/docs.
 
-Prowler runs in GovCloud regions as well. To make sure it points to the right API endpoint use `-r` to either `us-gov-west-1` or `us-gov-east-1`. If not filter region is used it will look for resources in both GovCloud regions by default:
-```sh
-./prowler -r us-gov-west-1
-```
-> For Security Hub integration see below in Security Hub section.
+#### Commands to run the API Worker
 
-### Custom folder for custom checks
-
-Flag `-x /my/own/checks` will include any check in that particular directory (files must start by check). To see how to write checks see [Add Custom Checks](#add-custom-checks) section.
-
-S3 URIs are also supported as custom folders for custom checks, e.g. `s3://bucket/prefix/checks`. Prowler will download the folder locally and run the checks as they are called with default execution,`-c` or `-g`.
->Make sure that the used credentials have s3:GetObject permissions in the S3 path where the custom checks are located.
-
-### Show or log only FAILs
-
-In order to remove noise and get only FAIL findings there is a `-q` flag that makes Prowler to show and log only FAILs. 
-It can be combined with any other option.
-Will show WARNINGS when a resource is excluded, just to take into consideration.
-
-```sh
-# -q option combined with -M csv -b
-./prowler -q -M csv -b
+``` console
+git clone https://github.com/prowler-cloud/prowler
+cd prowler/api
+uv sync
+source .venv/bin/activate
+set -a
+source .env
+cd src/backend
+python -m celery -A config.celery worker -l info -E
 ```
 
-### Set the entropy limit for detect-secrets
+#### Commands to run the API Scheduler
 
-Sets the entropy limit for high entropy base64 strings from environment variable `BASE64_LIMIT`. Value must be between 0.0 and 8.0, defaults is 4.5.
-Sets the entropy limit for high entropy hex strings from environment variable `HEX_LIMIT`. Value must be between 0.0 and 8.0, defaults is 3.0.
-
-```sh
-export BASE64_LIMIT=4.5
-export HEX_LIMIT=3.0
-```
-### Run Prowler using AWS CloudShell
-
-An easy way to run Prowler to scan your account is using AWS CloudShell. Read more and learn how to do it [here](util/cloudshell/README.md).
-
-## Security Hub integration
-
-Since October 30th 2020 (version v2.3RC5), Prowler supports natively and as **official integration** sending findings to [AWS Security Hub](https://aws.amazon.com/security-hub). This integration allows Prowler to import its findings to AWS Security Hub. With Security Hub, you now have a single place that aggregates, organizes, and prioritizes your security alerts, or findings, from multiple AWS services, such as Amazon GuardDuty, Amazon Inspector, Amazon Macie, AWS Identity and Access Management (IAM) Access Analyzer, and AWS Firewall Manager, as well as from AWS Partner solutions and from Prowler for free. 
-
-Before sending findings to Prowler, you need to perform next steps:
-1. Since Security Hub is a region based service, enable it in the region or regions you require. Use the AWS Management Console or using the AWS CLI with this command if you have enough permissions: 
-    - `aws securityhub enable-security-hub --region <region>`.
-2. Enable Prowler as partner integration integration. Use the AWS Management Console or using the AWS CLI with this command if you have enough permissions: 
-    - `aws securityhub enable-import-findings-for-product --region <region> --product-arn arn:aws:securityhub:<region>::product/prowler/prowler` (change region also inside the ARN).
-    - Using the AWS Management Console:
-    ![Screenshot 2020-10-29 at 10 26 02 PM](https://user-images.githubusercontent.com/3985464/97634660-5ade3400-1a36-11eb-9a92-4a45cc98c158.png)
-3. As mentioned in section "Custom IAM Policy", to allow Prowler to import its findings to AWS Security Hub you need to add the policy below to the role or user running Prowler:
-    - [iam/prowler-security-hub.json](iam/prowler-security-hub.json)
-
-Once it is enabled, it is as simple as running the command below (for all regions):
-
-```sh
-./prowler -M json-asff -S
-```
-or for only one filtered region like eu-west-1:
-```sh
-./prowler -M json-asff -q -S -f eu-west-1
-```
-> Note 1: It is recommended to send only fails to Security Hub and that is possible adding `-q` to the command. 
-
-> Note 2: Since Prowler perform checks to all regions by defaults you may need to filter by region when runing Security Hub integration, as shown in the example above. Remember to enable Security Hub in the region or regions you need by calling `aws securityhub enable-security-hub --region <region>` and run Prowler with the option `-f <region>` (if no region is used it will try to push findings in all regions hubs).
-
-> Note 3: to have updated findings in Security Hub you have to run Prowler periodically. Once a day or every certain amount of hours.
-
-Once you run findings for first time you will be able to see Prowler findings in Findings section:
-
-![Screenshot 2020-10-29 at 10 29 05 PM](https://user-images.githubusercontent.com/3985464/97634676-66c9f600-1a36-11eb-9341-70feb06f6331.png)
-
-### Security Hub in GovCloud regions
-
-To use Prowler and Security Hub integration in GovCloud there is an additional requirement, usage of `-r` is needed to point the API queries to the right API endpoint. Here is a sample command that sends only failed findings to Security Hub in region `us-gov-west-1`:
-```
-./prowler -r us-gov-west-1 -f us-gov-west-1 -S -M csv,json-asff -q
+``` console
+git clone https://github.com/prowler-cloud/prowler
+cd prowler/api
+uv sync
+source .venv/bin/activate
+set -a
+source .env
+cd src/backend
+python -m celery -A config.celery beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
 ```
 
-### Security Hub in China regions
+#### Commands to run the UI
 
-To use Prowler and Security Hub integration in China regions there is an additional requirement, usage of `-r` is needed to point the API queries to the right API endpoint. Here is a sample command that sends only failed findings to Security Hub in region `cn-north-1`:
-```
-./prowler -r cn-north-1 -f cn-north-1 -q -S -M csv,json-asff
-```
-
-## CodeBuild deployment
-
-Either to run Prowler once or based on a schedule this template makes it pretty straight forward. This template will create a CodeBuild environment and run Prowler directly leaving all reports in a bucket and creating a report also inside CodeBuild basedon the JUnit output from Prowler. Scheduling can be cron based like `cron(0 22 * * ? *)` or rate based like `rate(5 hours)` since CloudWatch Event rules (or Eventbridge) is used here.
-
-The Cloud Formation template that helps you doing that is [here](https://github.com/prowler-cloud/prowler/blob/master/util/codebuild/codebuild-prowler-audit-account-cfn.yaml). 
-
-> This is a simple solution to monitor one account. For multiples accounts see [Multi Account and Continuous Monitoring](util/org-multi-account/README.md).
-
-## Allowlist or remove a fail from resources
-
-Sometimes you may find resources that are intentionally configured in a certain way that may be a bad practice but it is all right with it, for example an S3 bucket open to the internet hosting a web site, or a security group with an open port needed in your use case. Now you can use `-w allowlist_sample.txt` and add your resources as `checkID:resourcename` as in this command:
-
-```
-./prowler -w allowlist_sample.txt
+``` console
+git clone https://github.com/prowler-cloud/prowler
+cd prowler/ui
+pnpm install
+pnpm run build
+pnpm start
 ```
 
-S3 URIs are also supported as allowlist file, e.g. `s3://bucket/prefix/allowlist_sample.txt`
->Make sure that the used credentials have s3:GetObject permissions in the S3 path where the allowlist file is located.
+> Once configured, access Prowler Local Server at http://localhost:3000. Sign up using your email and password to get started.
 
-DynamoDB table ARNs are also supported as allowlist file, e.g. `arn:aws:dynamodb:us-east-1:111111222222:table/allowlist`
->Make sure that the table has `account_id` as partition key and `rule` as sort key, and that the used credentials have dynamodb:Scan permissions in the table.
-><p align="left"><img src="https://user-images.githubusercontent.com/38561120/165769502-296f9075-7cc8-445e-8158-4b21804bfe7e.png" alt="image" width="397" height="252" /></p>
+#### Pre-commit Hooks Setup
 
->The field `account_id` can contains either an account ID or an `*` (which applies to all the accounts that use this table as a whitelist). As in the traditional allowlist file, the `rule` field must contain `checkID:resourcename` pattern.
-><p><img src="https://user-images.githubusercontent.com/38561120/165770610-ed5c2764-7538-44c2-9195-bcfdecc4ef9b.png" alt="image" width="394" /></p>
+Some pre-commit hooks require tools installed on your system:
 
+1. **Install [TruffleHog](https://github.com/trufflesecurity/trufflehog#install)** (secret scanning) — see the [official installation options](https://github.com/trufflesecurity/trufflehog#install).
 
+2. **Install [Hadolint](https://github.com/hadolint/hadolint#install)** (Dockerfile linting) — see the [official installation options](https://github.com/hadolint/hadolint#install).
 
-Allowlist option works along with other options and adds a `WARNING` instead of `INFO`, `PASS` or `FAIL` to any output format except for `json-asff`.
+## Prowler CLI
+### Pip package
+Prowler CLI is available as a project in [PyPI](https://pypi.org/project/prowler-cloud/). Consequently, it can be installed using pip with Python >=3.10, <3.14:
 
-## How to fix every FAIL
+```console
+pip install prowler
+prowler -v
+```
+>For further guidance, refer to [https://docs.prowler.com](https://docs.prowler.com/getting-started/installation/prowler-cli)
 
-Check your report and fix the issues following all specific guidelines per check in <https://d0.awsstatic.com/whitepapers/compliance/AWS_CIS_Foundations_Benchmark.pdf>
+### Containers
 
-## Troubleshooting
+#### Available Versions of Prowler CLI
 
-### STS expired token
+The following versions of Prowler CLI are available, depending on your requirements:
 
-If you are using an STS token for AWS-CLI and your session is expired you probably get this error:
+- `latest`: Synchronizes with the `master` branch. Note that this version is not stable.
+- `v4-latest`: Synchronizes with the `v4` branch. Note that this version is not stable.
+- `v3-latest`: Synchronizes with the `v3` branch. Note that this version is not stable.
+- `<x.y.z>` (release): Stable releases corresponding to specific versions. See the [complete list of Prowler releases](https://github.com/prowler-cloud/prowler/releases).
+- `stable`: Always points to the latest release.
+- `v4-stable`: Always points to the latest release for v4.
+- `v3-stable`: Always points to the latest release for v3.
 
-```sh
-A client error (ExpiredToken) occurred when calling the GenerateCredentialReport operation: The security token included in the request is expired
+The container images are available here:
+- Prowler CLI:
+    - [DockerHub](https://hub.docker.com/r/prowlercloud/prowler/tags)
+    - [AWS Public ECR](https://gallery.ecr.aws/prowler-cloud/prowler)
+- Prowler Local Server:
+    - [DockerHub - Prowler UI](https://hub.docker.com/r/prowlercloud/prowler-ui/tags)
+    - [DockerHub - Prowler API](https://hub.docker.com/r/prowlercloud/prowler-api/tags)
+
+### From GitHub
+
+Python >=3.10, <3.14 is required with [uv](https://docs.astral.sh/uv/):
+
+``` console
+git clone https://github.com/prowler-cloud/prowler
+cd prowler
+uv sync
+source .venv/bin/activate
+python prowler-cli.py -v
+```
+> [!IMPORTANT]
+> To clone Prowler on Windows, configure Git to support long file paths by running the following command: `git config core.longpaths true`.
+
+# 🛡️ GitHub Action
+
+The official **Prowler GitHub Action** runs Prowler scans in your GitHub workflows using the official [`prowlercloud/prowler`](https://hub.docker.com/r/prowlercloud/prowler) Docker image. Scans run on any [supported provider](https://docs.prowler.com/user-guide/providers/), with optional [`--push-to-cloud`](https://docs.prowler.com/user-guide/tutorials/prowler-import-findings) to send findings to Prowler Cloud and optional SARIF upload so findings show up in the repo's **Security → Code scanning** tab and as inline PR annotations.
+
+```yaml
+name: Prowler IaC Scan
+on:
+  pull_request:
+
+permissions:
+  contents: read
+  security-events: write
+  actions: read
+
+jobs:
+  prowler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: prowler-cloud/prowler@5.25
+        with:
+          provider: iac
+          output-formats: sarif json-ocsf
+          upload-sarif: true
+          flags: --severity critical high
 ```
 
-To fix it, please renew your token by authenticating again to the AWS API, see next section below if you use MFA.
+Full configuration, per-provider authentication, and SARIF examples: [Prowler GitHub Action tutorial](docs/user-guide/tutorials/prowler-app-github-action.mdx). Marketplace listing: [Prowler Security Scan](https://github.com/marketplace/actions/prowler-security-scan).
 
-### Run Prowler with MFA protected credentials
+# ✏️ High level architecture
 
-To run Prowler using a profile that requires MFA you just need to get the session token before hand. Just make sure you use this command:
+## Prowler Local Server
+**Prowler Local Server** is composed of four key components:
 
-```sh
-aws --profile <YOUR_AWS_PROFILE> sts get-session-token --duration 129600 --serial-number <ARN_OF_MFA> --token-code <MFA_TOKEN_CODE> --output text
+- **Prowler UI**: A web-based interface, built with Next.js, providing a user-friendly experience for executing Prowler scans and visualizing results.
+- **Prowler API**: A backend service, developed with Django REST Framework, responsible for running Prowler scans and storing the generated results.
+- **Prowler SDK**: A Python SDK designed to extend the functionality of the Prowler CLI for advanced capabilities.
+- **Prowler MCP Server**: A Model Context Protocol server that provides AI tools for Lighthouse, the AI-powered security assistant. This is a critical dependency for Lighthouse functionality.
+
+```mermaid
+flowchart TB
+    user([User / Security Team])
+    cli([Prowler CLI])
+
+    subgraph APP["Prowler Local Server"]
+        ui["Prowler UI<br/>(Next.js)"]
+        api["Prowler API<br/>(Django REST Framework)"]
+        worker["API Worker<br/>(Celery)"]
+        beat["API Scheduler<br/>(Celery Beat)"]
+        mcp["Prowler MCP Server<br/>(Lighthouse AI tools)"]
+    end
+
+    sdk["Prowler SDK<br/>(Python)"]
+
+    subgraph DATA["Data Layer"]
+        pg[("PostgreSQL")]
+        valkey[("Valkey / Redis")]
+        neo4j[("Neo4j")]
+    end
+
+    providers["Providers"]
+
+    user --> ui
+    user --> cli
+    ui -->|REST| api
+    ui -->|MCP HTTP| mcp
+    mcp -->|REST| api
+    api --> pg
+    api --> valkey
+    beat -->|enqueue jobs| valkey
+    valkey -->|dispatch| worker
+    worker --> pg
+    worker -->|Attack Paths| neo4j
+    worker -->|invokes| sdk
+    cli --> sdk
+
+    sdk --> providers
 ```
 
-Once you get your token you can export it as environment variable:
+<!-- Diagram source: docs/images/products/prowler-app-architecture.mmd — keep this inline block, the docs page getting-started/products/prowler-app.mdx, and the .mmd file in sync. -->
 
-```sh
-export AWS_PROFILE=YOUR_AWS_PROFILE
-export AWS_SESSION_TOKEN=YOUR_NEW_TOKEN
-AWS_SECRET_ACCESS_KEY=YOUR_SECRET
-export AWS_ACCESS_KEY_ID=YOUR_KEY
+
+## Prowler CLI
+
+### Running Prowler
+
+Prowler can be executed across various environments, offering flexibility to meet your needs. It can be run from:
+
+- Your own workstation
+
+- A Kubernetes Job
+
+- Google Compute Engine
+
+- Azure Virtual Machines (VMs)
+
+- Amazon EC2 instances
+
+- AWS Fargate or other container platforms
+
+- CloudShell
+
+And many more environments.
+
+![Architecture](docs/img/architecture.png)
+
+# 🤖 AI Skills for Development
+
+Prowler includes a comprehensive set of **AI Skills** that help AI coding assistants understand Prowler's codebase patterns and conventions.
+
+## What are AI Skills?
+
+Skills are structured instructions that give AI assistants the context they need to write code that follows Prowler's standards. They include:
+
+- **Coding patterns** for each component (SDK, API, UI, MCP Server)
+- **Testing conventions** (pytest, Playwright)
+- **Architecture guidelines** (Clean Architecture, RLS patterns)
+- **Framework-specific rules** (React 19, Next.js 15, Django DRF, Tailwind 4)
+
+## Available Skills
+
+| Category | Skills |
+|----------|--------|
+| **Generic** | `typescript`, `react-19`, `nextjs-15`, `tailwind-4`, `playwright`, `pytest`, `django-drf`, `zod-4`, `zustand-5`, `ai-sdk-5` |
+| **Prowler** | `prowler`, `prowler-api`, `prowler-ui`, `prowler-mcp`, `prowler-sdk-check`, `prowler-test-ui`, `prowler-test-api`, `prowler-test-sdk`, `prowler-compliance`, `prowler-provider`, `prowler-pr`, `prowler-docs` |
+
+## Setup
+
+```bash
+./skills/setup.sh
 ```
 
-or set manually up your `~/.aws/credentials` file properly.
+This configures skills for AI coding assistants that follow the [agentskills.io](https://agentskills.io) standard:
 
-There are some helpfull tools to save time in this process like [aws-mfa-script](https://github.com/asagage/aws-mfa-script) or [aws-cli-mfa](https://github.com/sweharris/aws-cli-mfa).
+| Tool | Configuration |
+|------|---------------|
+| **Claude Code** | `.claude/skills/` (symlink) |
+| **OpenCode** | `.claude/skills/` (symlink) |
+| **Codex (OpenAI)** | `.codex/skills/` (symlink) |
+| **GitHub Copilot** | `.github/skills/` (symlink) |
+| **Gemini CLI** | `.gemini/skills/` (symlink) |
 
-### AWS Managed IAM Policies
+> **Note:** Restart your AI coding assistant after running setup to load the skills.
+> Gemini CLI requires `experimental.skills` enabled in settings.
 
-[ViewOnlyAccess](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html#jf_view-only-user)
-- Use case: This user can view a list of AWS resources and basic metadata in the account across all services. The user cannot read resource content or metadata that goes beyond the quota and list information for resources.
-- Policy description: This policy grants List*, Describe*, Get*, View*, and Lookup* access to resources for most AWS services. To see what actions this policy includes for each service, see [ViewOnlyAccess Permissions](https://console.aws.amazon.com/iam/home#policies/arn:aws:iam::aws:policy/job-function/ViewOnlyAccess)
+# 📖 Documentation
 
-[SecurityAudit](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_job-functions.html#jf_security-auditor)
-- Use case: This user monitors accounts for compliance with security requirements. This user can access logs and events to investigate potential security breaches or potential malicious activity.
-- Policy description: This policy grants permissions to view configuration data for many AWS services and to review their logs. To see what actions this policy includes for each service, see [SecurityAudit Permissions](https://console.aws.amazon.com/iam/home#policies/arn:aws:iam::aws:policy/SecurityAudit)
+For installation instructions, usage details, tutorials, and the Developer Guide, visit https://docs.prowler.com/
 
-### Custom IAM Policy
+# 📃 License
 
-[Prowler-Additions-Policy](iam/prowler-additions-policy.json)
+Prowler is licensed under the Apache License 2.0.
 
-Some new and specific checks require Prowler to inherit more permissions than SecurityAudit and ViewOnlyAccess to work properly. In addition to the AWS managed policies, "SecurityAudit" and "ViewOnlyAccess", the user/role you use for checks may need to be granted a custom policy with a few more read-only permissions (to support additional services mostly). Here is an example policy with the additional rights, "Prowler-Additions-Policy" (see below bootstrap script for set it up):
-
-- [iam/prowler-additions-policy.json](iam/prowler-additions-policy.json)
-
-[Prowler-Security-Hub Policy](iam/prowler-security-hub.json)
-
-Allows Prowler to import its findings to [AWS Security Hub](https://aws.amazon.com/security-hub). More information in [Security Hub integration](#security-hub-integration):
-
-- [iam/prowler-security-hub.json](iam/prowler-security-hub.json)
-
-### Bootstrap Script
-
-Quick bash script to set up a "prowler" IAM user with "SecurityAudit" and "ViewOnlyAccess" group with the required permissions (including "Prowler-Additions-Policy"). To run the script below, you need user with administrative permissions; set the `AWS_DEFAULT_PROFILE` to use that account:
-
-```sh
-export AWS_DEFAULT_PROFILE=default
-export ACCOUNT_ID=$(aws sts get-caller-identity --query 'Account' | tr -d '"')
-aws iam create-group --group-name Prowler
-aws iam create-policy --policy-name Prowler-Additions-Policy --policy-document file://$(pwd)/iam/prowler-additions-policy.json
-aws iam attach-group-policy --group-name Prowler --policy-arn arn:aws:iam::aws:policy/SecurityAudit
-aws iam attach-group-policy --group-name Prowler --policy-arn arn:aws:iam::aws:policy/job-function/ViewOnlyAccess
-aws iam attach-group-policy --group-name Prowler --policy-arn arn:aws:iam::${ACCOUNT_ID}:policy/Prowler-Additions-Policy
-aws iam create-user --user-name prowler
-aws iam add-user-to-group --user-name prowler --group-name Prowler
-aws iam create-access-key --user-name prowler
-unset ACCOUNT_ID AWS_DEFAULT_PROFILE
-```
-
-The `aws iam create-access-key` command will output the secret access key and the key id; keep these somewhere safe, and add them to `~/.aws/credentials` with an appropriate profile name to use them with Prowler. This is the only time they secret key will be shown.  If you lose it, you will need to generate a replacement.
-
-> [This CloudFormation template](iam/create_role_to_assume_cfn.yaml) may also help you on that task.
-
-## Extras
-
-We are adding additional checks to improve the information gather from each account, these checks are out of the scope of the CIS benchmark for AWS, but we consider them very helpful to get to know each AWS account set up and find issues on it.
-
-Some of these checks look for publicly facing resources may not actually be fully public due to other layered controls like S3 Bucket Policies, Security Groups or Network ACLs.
-
-To list all existing checks in the extras group run the command below:
-
-```sh
-./prowler -l -g extras
-```
-
->There are some checks not included in that list, they are experimental or checks that takes long to run like `extra759` and `extra760` (search for secrets in Lambda function variables and code).
-
-To check all extras in one command:
-
-```sh
-./prowler -g extras
-```
-
-or to run just one of the checks:
-
-```sh
-./prowler -c extraNUMBER
-```
-
-or to run multiple extras in one go:
-
-```sh
-./prowler -c extraNumber,extraNumber
-```
-
-
-## Forensics Ready Checks
-
-With this group of checks, Prowler looks if each service with logging or audit capabilities has them enabled to ensure all needed evidences are recorded and collected for an eventual digital forensic investigation in case of incident. List of checks part of this group (you can also see all groups with `./prowler -L`). The list of checks can be seen in the group file at:
-
-[groups/group8_forensics](groups/group8_forensics)
-
-The `forensics-ready` group of checks uses existing and extra checks. To get a forensics readiness report, run this command:
-
-```sh
-./prowler -g forensics-ready
-```
-
-## GDPR Checks
-
-With this group of checks, Prowler shows result of checks related to GDPR, more information [here](https://github.com/prowler-cloud/prowler/issues/189). The list of checks can be seen in the group file at:
-
-[groups/group9_gdpr](groups/group9_gdpr)
-
-The `gdpr` group of checks uses existing and extra checks. To get a GDPR report, run this command:
-
-```sh
-./prowler -g gdpr
-```
-
-## AWS FTR Checks
-
-With this group of checks, Prowler shows result of checks related to the AWS Foundational Technical Review, more information [here](https://apn-checklists.s3.amazonaws.com/foundational/partner-hosted/partner-hosted/CVLHEC5X7.html). The list of checks can be seen in the group file at:
-
-[groups/group25_ftr](groups/group25_FTR)
-
-The `ftr` group of checks uses existing and extra checks. To get a AWS FTR report, run this command:
-
-```sh
-./prowler -g ftr
-```
-
-## HIPAA Checks
-
-With this group of checks, Prowler shows results of controls related to the "Security Rule" of the Health Insurance Portability and Accountability Act aka [HIPAA](https://www.hhs.gov/hipaa/for-professionals/security/index.html) as defined in [45 CFR Subpart C - Security Standards for the Protection of Electronic Protected Health Information](https://www.law.cornell.edu/cfr/text/45/part-164/subpart-C) within [PART 160 - GENERAL ADMINISTRATIVE REQUIREMENTS](https://www.law.cornell.edu/cfr/text/45/part-160) and [Subpart A](https://www.law.cornell.edu/cfr/text/45/part-164/subpart-A) and [Subpart C](https://www.law.cornell.edu/cfr/text/45/part-164/subpart-C) of PART 164 - SECURITY AND PRIVACY
-
-More information on the original PR is [here](https://github.com/prowler-cloud/prowler/issues/227).
-
-### Note on Business Associate Addendum's (BAA)
-
-Under the HIPAA regulations, cloud service providers (CSPs) such as AWS are considered business associates. The Business Associate Addendum (BAA) is an AWS contract that is required under HIPAA rules to ensure that AWS appropriately safeguards protected health information (PHI). The BAA also serves to clarify and limit, as appropriate, the permissible uses and disclosures of PHI by AWS, based on the relationship between AWS and our customers, and the activities or services being performed by AWS. Customers may use any AWS service in an account designated as a HIPAA account, but they should only process, store, and transmit protected health information (PHI) in the HIPAA-eligible services defined in the Business Associate Addendum (BAA). For the latest list of HIPAA-eligible AWS services, see [HIPAA Eligible Services Reference](https://aws.amazon.com/compliance/hipaa-eligible-services-reference/).
-
-More information on AWS & HIPAA can be found [here](https://aws.amazon.com/compliance/hipaa-compliance/)
-
-The list of checks showed by this group is as follows, they will be mostly relevant for Subsections [164.306 Security standards: General rules](https://www.law.cornell.edu/cfr/text/45/164.306) and [164.312 Technical safeguards](https://www.law.cornell.edu/cfr/text/45/164.312). Prowler is only able to make checks in the spirit of the technical requirements outlined in these Subsections, and cannot cover all procedural controls required. They be found in the group file at:
-
-[groups/group10_hipaa](groups/group10_hipaa)
-
-The `hipaa` group of checks uses existing and extra checks. To get a HIPAA report, run this command:
-
-```sh
-./prowler -g hipaa
-```
-
-## Trust Boundaries Checks
-
-### Definition and Terms
-
-The term "trust boundary" is originating from the threat modelling process and the most popular contributor Adam Shostack and author of "Threat Modeling: Designing for Security" defines it as following ([reference](https://adam.shostack.org/uncover.html)):
-
-> Trust boundaries are perhaps the most subjective of all: these represent the border between trusted and untrusted elements. Trust is complex. You might trust your mechanic with your car, your dentist with your teeth, and your banker with your money, but you probably don't trust your dentist to change your spark plugs.
-
-AWS is made to be flexible for service links within and between different AWS accounts, we all know that.
-
-This group of checks helps to analyse a particular AWS account (subject) on existing links to other AWS accounts across various AWS services, in order to identify untrusted links.
-
-### Run
-To give it a quick shot just call:
-
-```sh
-./prowler -g trustboundaries
-```
-
-### Scenarios
-
-Currently, this check group supports two different scenarios:
-
-1. Single account environment: no action required, the configuration is happening automatically for you.
-2. Multi account environment: in case you environment has multiple trusted and known AWS accounts you maybe want to append them manually to [groups/group16_trustboundaries](groups/group16_trustboundaries) as a space separated list into `GROUP_TRUSTBOUNDARIES_TRUSTED_ACCOUNT_IDS` variable, then just run prowler.
-
-### Coverage
-
-Current coverage of Amazon Web Service (AWS) taken from [here](https://docs.aws.amazon.com/whitepapers/latest/aws-overview/introduction.html):
-| Topic                           | Service    | Trust Boundary                                                            |
-|---------------------------------|------------|---------------------------------------------------------------------------|
-| Networking and Content Delivery | Amazon VPC | VPC endpoints connections ([extra786](checks/check_extra786))             |
-|                                 |            | VPC endpoints allowlisted principals ([extra787](checks/check_extra787))  |
-
-All ideas or recommendations to extend this group are very welcome [here](https://github.com/prowler-cloud/prowler/issues/new/choose).
-
-### Detailed Explanation of the Concept
-
-The diagrams depict two common scenarios, single account and multi account environments.
-Every circle represents one AWS account.
-The dashed line represents the trust boundary, that separates trust and untrusted AWS accounts.
-The arrow simply describes the direction of the trust, however the data can potentially flow in both directions.
-
-Single Account environment assumes that only the AWS account subject to this analysis is trusted. However, there is a chance that two VPCs are existing within that one AWS account which are still trusted as a self reference.
-![single-account-environment](/docs/images/prowler-single-account-environment.png)
-
-Multi Account environments assumes a minimum of two trusted or known accounts. For this particular example all trusted and known accounts will be tested. Therefore `GROUP_TRUSTBOUNDARIES_TRUSTED_ACCOUNT_IDS` variable in [groups/group16_trustboundaries](groups/group16_trustboundaries) should include all trusted accounts Account #A, Account #B, Account #C, and Account #D in order to finally raise Account #E and Account #F for being untrusted or unknown.
-![multi-account-environment](/docs/images/prowler-multi-account-environment.png)
-
-## Add Custom Checks
-
-In order to add any new check feel free to create a new extra check in the extras group or other group. To do so, you will need to follow these steps:
-
-1. Follow structure in file `checks/check_sample`
-2. Name your check with a number part of an existing group or a new one
-3. Save changes and run it as `./prowler -c extraNN`
-4. Send me a pull request! :)
-
-## Add Custom Groups
-
-1. Follow structure in file `groups/groupN_sample`
-1. Name your group with a non existing number
-1. Save changes and run it as `./prowler -g extraNN`
-1. Send me a pull request! :)
-
-- You can also create a group with only the checks that you want to perform in your company, for instance a group named `group9_mycompany` with only the list of checks that you care or your particular compliance applies.
-
-## Third Party Integrations
-
-### Telegram
-
-Javier Pecete has done an awesome job integrating Prowler with Telegram, you have more details here <https://github.com/i4specete/ServerTelegramBot>
-
-### Cloud Security Suite
-
-The guys of SecurityFTW have added Prowler in their Cloud Security Suite along with other cool security tools <https://github.com/SecurityFTW/cs-suite>
-
-## License
-
-Prowler is licensed as Apache License 2.0 as specified in each file. You may obtain a copy of the License at
-<http://www.apache.org/licenses/LICENSE-2.0>
-
-**I'm not related anyhow with CIS organization, I just write and maintain Prowler to help companies over the world to make their cloud infrastructure more secure.**
-
-If you want to contact me visit <https://blyx.com/contact> or follow me on Twitter <https://twitter.com/prowler-cloud> my DMs are open.
+A copy of the License is available at <http://www.apache.org/licenses/LICENSE-2.0>
